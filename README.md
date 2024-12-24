@@ -34,12 +34,12 @@ This is a simple and efficient Project Management Form built using JsonPowerDB. 
 ![Screenshot 2024-12-24 174143](https://github.com/user-attachments/assets/06dc7c27-85a9-452c-a44a-e1f36b359fed)
 
 #### 3. Project Management Form:
-![Screenshot 2024-12-24 174247](https://github.com/user-attachments/assets/5d048016-485d-4ecb-b508-664c87e62714)
+![Screenshot 2024-12-24 174247](https://github.com/user-attachments/assets/54631e30-ab83-47dd-b664-c23a1da79de6)
 
 #### 4. Update Operation Senario:
-![Screenshot 2024-12-24 174309](https://github.com/user-attachments/assets/eec6f4a8-746d-4c29-bdf5-e719f1019d6d)
+![Screenshot 2024-12-24 174309](https://github.com/user-attachments/assets/472dcf31-e3cb-446d-98a6-7c3cf1183a49)
 
 #### 5. All Records (Additional Feature):
-![Screenshot 2024-12-24 174319](https://github.com/user-attachments/assets/dc51ca8f-001e-4bc7-b3ef-37400b737487)
+![Screenshot 2024-12-24 174319](https://github.com/user-attachments/assets/490dfae6-0058-44c5-9e5b-01db15aac6f0)
           
 
