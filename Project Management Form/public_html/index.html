@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Management Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+        <link rel="stylesheet" href="CSS/style.css"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <h3 class="text-center">Project Management Form</h3>
+            <form id="projectForm" method="get">
+                <div class="form-group">
+                    <span><label for="projectId">Project ID:</label> <label id="proIdMsg"></label></span>
+                    <input type="text" class="form-control" id="projectId" placeholder="Enter Project ID Here.." onchange="getProject();"
+                           required>
+                </div>
+                <div class="form-group">
+                    <label for="ProjectName">Project Name:</label>
+                    <input type="text" class="form-control" id="projectName" placeholder="Enter Project Name Here">
+                </div>
+                <div class="form-group">
+                    <label for="projectAssign">Assigned To:</label>
+                    <input type="text" class="form-control" id="projectAssign" placeholder="Enter Name of Project Assignee">
+                </div>
+                <div class="form-group">
+                    <label for="projectDate">Assignment Date:</label>
+                    <input type="date" class="form-control" id="projectDate" placeholder="Enter Project Assignment Date Here">
+                </div>
+                <div class="form-group">
+                    <label for="projectDeadline">Deadline:</label>
+                    <input type="date" class="form-control" id="projectDeadline" placeholder="Enter Project Deadline Date">
+                </div>
+                <div class="btn1">
+                    <input type="button" class="btn btn-success" id="saveData" value="Save" onclick="saveProject();"disabled>
+                    <input type="button" class="btn btn-warning" id="changeData" value="Update" onclick="updateProject();"
+                           disabled>
+                    <input type="button" class="btn btn-primary" id="resetData" value="Reset" onclick="resetForm();" disabled>
+                </div>
+            </form>
+            <div class="btn2">
+                <a href="AllRecords.html" class="btn btn-info">Check All Records</a>
+            </div>
+        </div>
+
+        <script src="JS/index.js"></script>
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+    </body>
+
+</html>
